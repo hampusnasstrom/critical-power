@@ -27,8 +27,12 @@ classifiers = [
 
 dependencies = [
     "scipy>=1.12.0",
+    "pandas>=2.2.0",
 ]
 [project.optional-dependencies]
+plotting = [
+    "matplotlib>=3.8.2",
+]
 dev = [
     "pytest>=8.0.0",
 ]
