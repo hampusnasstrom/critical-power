@@ -30,11 +30,11 @@ dependencies = [
 ]
 [project.optional-dependencies]
 dev = [
-    "pytest>=9.0.0",
+    "pytest>=8.0.0",
 ]
 
 [project.scripts]
-metainfo-yaml2py = "critical-power:main"
+critical-power = "critical_power:main"
 
 [project.urls]
 "Homepage" = "https://github.com/hampusnasstrom/critical-power"
